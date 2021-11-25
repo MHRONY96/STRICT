@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: 'occur';
+}
+
+#StrictNav ul li a {
+  color: black;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+/* banner part css start  */
+.bannerSection {
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 798px;
+}
+
+.bannerContent {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.bannerContent h1 {
+  font-family: "Loto";
+  font-weight: bold;
+  font-size: 100px;
+  margin-bottom: 33px;
+}
+
+.bannerContent hr {
+  color: #15a4fa;
+  padding: 1px;
+  margin: 0px 200px 0px 200px;
+}
+
+.bannerContent p {
+  margin-top: 43px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 66px;
+}
+
+.bannerImg {
+  margin-top: 178px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.bannerIcon {
+  color: white;
+  position: absolute;
+  height: 2px;
+  width: 21px;
+  top: 697px;
+  left: 49%;
+  background-color: #f1f1f1;
+  transform: rotate(45deg);
+  text-align: center;
+}
+
+.bannerIconOne {
+  color: white;
+  position: absolute;
+  height: 2px;
+  width: 21px;
+  top: 697px;
+  left: 50%;
+  background-color: #f1f1f1;
+  transform: rotate(130deg);
+  text-align: center;
+}
+
+/* banner part css end */
+
+/* simple & pure section css start  */
+#simplePure {
+  padding-top: 80px;
+  padding-bottom: 111px;
+  background-color: #f6f9f9;
+  text-align: center;
+}
+
+#simplePure h4 {
+  font-size: 40px;
+  font-family: "occur";
+  margin-bottom: 32px;
+}
+
+#simplePure p {
+  font-size: 24px;
+  font-family: "occur";
+  color: #9f9f9f;
+}
+
+/* simple & pure section css end */
+
+/* icon part css start */
+#iconSection {
+  display: block;
+}
+
+.iconOverlay {
+  padding-top: 64px;
+  padding-bottom: 69px;
+}
+
+.Icon {
+  position: relative;
+}
+
+.iconImg {
+  position: absolute;
+  left: 30%;
+}
+
+.iconImg img {
+  padding: 51px;
+  background-color: #48baff;
+}
+
+.iconContent {
+  margin-top: 34px;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  text-align: center;
+}
+
+.iconContent h4 {
+  font-family: "occur";
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.iconContent p {
+  font-family: "occur";
+  font-size: 15px;
+  color: #999999;
+}
+
+/* icon part css end */
+
+/* Gallery Part css start */
+.galleryOverlay {
+  padding-top: 82px;
+  padding-bottom: 116px;
+  background-color: #f6f9f9;
+  margin-top: 250px;
+}
+
+.galleryContent h4 {
+  font-size: 41px;
+  margin-bottom: 22px;
+}
+
+.galleryContent p {
+  font-size: 15px;
+  margin-bottom: 81px;
+}
+
+.galleryImg {
+  position: relative;
+}
+
+.post_overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(44, 170, 246, 0.70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all linear .3s;
+}
+
+.post_overlay a {
+  height: 40px;
+  width: 40px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.galleryImg:hover .post_overlay {
+  opacity: 1;
+  transition: all linear .3s;
+}
+
+/* Gallery Part css end */
+
+/* big footer section css start  */
+#bigFooterSection {
+  background-image: url("../img/big-footer.png");
+}
+
+.footerOverlay {
+  padding-top: 73px;
+  padding-bottom: 110px;
+  background: rgba(45, 56, 76, 0.53);
+}
+
+.bigFooterContent h4 {
+  color: white;
+  text-align: center;
+  font-size: 41px;
+  margin-bottom: 20px;
+}
+
+.bigFooterContent p {
+  text-align: center;
+  color: #999999;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.contactFrom input {
+  background-color: #384355;
+  opacity: 0.53;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  color: #999999;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.contactFrom textarea {
+  background-color: #384355;
+  opacity: 0.53;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  color: #999999;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+/* big footer section css end  */
+
+/* footer section css start  */
+#footerSection {
+  padding: 25px 0px 25px 0px;
+  background-color: #f6f9f9;
+}
+
+.footerIcon a {
+  color: white;
+  padding: 15px;
+  background: #15a4fa;
+  border-radius: 2px;
+}
+
+
+/* footer section css end  */
